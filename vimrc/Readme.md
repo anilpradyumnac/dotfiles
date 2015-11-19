@@ -5,8 +5,8 @@ the current vim configuration file.
 
 Some of the plugins tha can be found are 
 
-##color-scheme
-##nerdtree
-##Reindent
+###color-scheme
+###nerdtree
+###Reindent
 
 ...
