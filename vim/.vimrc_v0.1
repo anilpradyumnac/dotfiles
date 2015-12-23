@@ -55,4 +55,8 @@ set laststatus=2
 
 set guioptions-=T
 
-
+:command! -complete=file -nargs=1 Rpdf :r !pdftotext -nopgbrk <q-args> -
+:command! -complete=file -nargs=1 Rpdf :r !pdftotext -nopgbrk <q-args> - |fmt -csw78
+:inoremap ( ()<Esc>i
+:inoremap { {}<Esc>i
+:inoremap [ []<Esc>i
